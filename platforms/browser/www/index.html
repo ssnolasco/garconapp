@@ -15,6 +15,7 @@
 			<h5 class="titulo">Só de Cenoura</h5>
 
 			<div>
+				<i class="material-icons waves-effect waves-light waves-circle scan-qrcode">camera</i>
 				<i data-activates="submenu" data-gutter="5" data-constrainwidth="false"
 					class="material-icons waves-effect waves-light waves-circle dropdown-button">more_vert</i>
 			</div>
@@ -74,10 +75,10 @@
 		<div class="modal-content">
 			<h5>Resumo do pedido</h5>
 			<input type="number" placeholder="Número da mesa" class="validate" id="numero-mesa"/>
-			<blockquote id="resumo"></blockquote>
+			<div id="resumo"></div>
 		</div>
 		<div class="modal-footer">
-			<button class="btn deep-orange waves-effect waves-light modal-close">
+			<button class="btn deep-orange waves-effect waves-light modal-close acao-finalizar">
 				Pedir
 			</button>
 
@@ -87,6 +88,7 @@
 		</div>
 	</div>
 
+    <script src="cordova.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/app.js"></script>
